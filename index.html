@@ -12,8 +12,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #1b263b;
-            color: #edf2f4;
+            background: radial-gradient(circle at top, #1e3a8a 0%, #0b1728 70%);
+            color: #e0f2ff;
             font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
             padding: 2rem 0;
         }
@@ -21,20 +21,21 @@
         .calculator-card {
             max-width: 420px;
             width: 100%;
-            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 20px 55px rgba(15, 23, 42, 0.6);
             border: none;
             border-radius: 1rem;
             overflow: hidden;
+            background: linear-gradient(145deg, rgba(30, 64, 175, 0.95), rgba(12, 31, 54, 0.98));
         }
 
         .display-area {
-            background-color: #0d1b2a;
+            background: linear-gradient(160deg, rgba(12, 31, 54, 0.95), rgba(15, 76, 129, 0.85));
             padding: 1.5rem;
         }
 
         #display {
-            background-color: rgba(255, 255, 255, 0.08);
-            color: #f8f9fa;
+            background-color: rgba(191, 219, 254, 0.12);
+            color: #dbeafe;
             border: none;
             border-radius: 0.75rem;
             font-size: 2rem;
@@ -55,7 +56,7 @@
         }
 
         .history li {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(148, 197, 253, 0.15);
             border-radius: 0.5rem;
             padding: 0.35rem 0.75rem;
             margin-bottom: 0.35rem;
@@ -64,7 +65,7 @@
         .btn-calculator {
             border: none;
             border-radius: 0.75rem;
-            color: #edf2f4;
+            color: #e0f2ff;
             font-weight: 600;
             padding: 0.95rem 0;
             transition: transform 0.12s ease, box-shadow 0.12s ease;
@@ -75,41 +76,41 @@
         }
 
         .btn-operator {
-            background: rgba(255, 255, 255, 0.14);
+            background: rgba(96, 165, 250, 0.28);
         }
 
         .btn-func {
-            background: rgba(52, 199, 89, 0.2);
-            color: #d8f3dc;
+            background: rgba(59, 130, 246, 0.25);
+            color: #dbeafe;
         }
 
         .btn-command {
-            background: rgba(255, 107, 107, 0.2);
-            color: #ffc9c9;
+            background: rgba(129, 140, 248, 0.28);
+            color: #e0e7ff;
         }
 
         .btn-equals {
-            background-color: #ff7b54;
-            color: #1b263b;
+            background-color: #3b82f6;
+            color: #0b1728;
             font-weight: 700;
         }
 
         .btn-digit {
-            background: rgba(255, 255, 255, 0.12);
+            background: rgba(191, 219, 254, 0.18);
         }
 
         .mode-toggle {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(96, 165, 250, 0.2);
             border-radius: 999px;
             font-size: 0.85rem;
             border: none;
-            color: #fff;
+            color: #e0f2ff;
             padding: 0.35rem 0.75rem;
         }
 
         .mode-toggle.active {
-            background: rgba(255, 255, 255, 0.25);
-            color: #1b263b;
+            background: rgba(191, 219, 254, 0.9);
+            color: #0b1728;
             font-weight: 600;
         }
 
